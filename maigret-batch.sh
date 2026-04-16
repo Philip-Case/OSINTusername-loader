@@ -20,20 +20,7 @@ fi
 if [ ${#usernames[@]} -eq 0 ]; then
     echo "[i] Using hard-coded username list"
     usernames=(
-        "daniel_hanis"
-        "daniel.hanish"
-        "daniel.hanisch"
-        "danielhanisch"
-        "danielhanis"
-        "daniel.hanis"
-        "daniel.hanisf"
-        "danielhanish"
-        "hanisdaniel_"
-        "hanis_daniel"
-        "danielhanishka"
-        "daniel.hanis.9"
-        "cristiandaniel.hanis"
-        "cristiandaniel.hanis.1"
+  list your usernames here 
     )
 fi
 echo " → Loaded ${#usernames[@]} usernames"
